@@ -1,19 +1,9 @@
-<img align="center" width=600px;   src="logo/logo dropzone.png"><!--logo-->
-# DropZone Technology
+<p align="center"><img  width=600px;   src="logo/logo dropzone.png"></p><!--logo-->
+<h1>DropZone Technology</h1>
 
 <p>Descrição do projeto</p>
 
  <h3 align="center">:construction:Em desenvolvimento:construction:</h3>
- ### Features
-
-- [x] Design das telas principais
-- [x] Bots feitos em python
-- [ ] Implementação do Java Web
-- [ ] Sessão de conteúdo sobre marketing
-- [ ] Hospedado
-
-
- 
  
 <p align="center">
    <a href="#objetivo">Objetivo</a> •
@@ -43,5 +33,17 @@
 
 <h3>Membros do projeto</h3>
 <table>
-  <tr> <td><strong>Erllan Rego</strong></td><td><strong>Eudes Santana</strong></td></tr>
+  <tr> 
+   <td>
+    <p align="center";><strong><a href="https://github.com/ErllanRego">Erllan Rego</a></strong></p>
+    <p align="center";><a href="https://github.com/ErllanRego"><img width="100px"; src="https://avatars.githubusercontent.com/u/69881545?v=4"></a></p>
+    <p align="center";><a href="https://www.linkedin.com/in/erllanrego/"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></p>
+   </td>
+   
+   <td>
+    <p align="center";><strong><a href="https://github.com/EudesSantana">Eudes Santana</a></strong></p>
+    <p align="center";><a href="https://github.com/EudesSantana"><img width="100px"; src="https://avatars.githubusercontent.com/u/67012339?v=4"></a></p>
+    <p align="center";><a href="https://www.linkedin.com/in/eudes-santana-4a26621b7/"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></p>
+  </td>
+ </tr>
 </table>
