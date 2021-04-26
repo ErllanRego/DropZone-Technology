@@ -1,26 +1,39 @@
 <p align="center"><img  width=600px;   src="logo/logo dropzone.png"></p><!--logo-->
-<h1>DropZone Technology</h1>
+<h1 align="center">DropZone Technology</h1>
 
-<p>Descrição do projeto</p>
+<p align="center">"Show us the problem. And we will give you the solution."</p>
 
-
- <h3 align="center">:construction:Em desenvolvimento:construction:</h3>
+ <h3 align="center">:construction:Em desenvolvimento. Em breve Deploy disponível:construction:</h3>
  
 <p align="center">
    <a href="#objetivos">Objetivo</a> •
+   <a href="#requisitos">Requisitos</a> •
    <a href="#tecnologias">Tecnologias</a> • 
-   <a href="#contribuicao">Contribuição</a> • 
+   <a href="#membros">Membros do projeto</a> • 
    <a href="#licenca">Licença</a>
 </p>
 
 <hr>
 
 <h3 id="objetivos">Objetivos</h3>
-<p></p>
+<ul>
+ <li>
+  <h4>Fazer uso das tecnologias aprendidas</h4>
+ </li>
+ 
+ <li>
+  <h4>Colocar em prática fundamentos de Git e Github</h4>
+ </li>
+ 
+ <li>
+  <h4>Demonstrar para as empresas o que podemos fazer</h4>
+ </li>
+ 
+</ul>
 
 <hr>
 
-<h3>Requisitos</h3>
+<h3 id="requisitos">Requisitos</h3>
 <ul>
   <li>Requisito 1</li>
   <li>Requisito 2</li>
@@ -34,14 +47,11 @@
 <a href="#"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"></a>
 <a href="#"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"></a>
 <a href="#"><img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"></a>
-<a href="#"><img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"></a>
-<a href="#"><img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"></a>
-<a href="#"><img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white"></a>
 <a href="#"><img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white"></a>
 
 <hr>
 
-<h3>Membros do projeto</h3>
+<h3 id="membros">Membros do projeto</h3>
 <table>
   <tr> 
    <td>
@@ -60,6 +70,6 @@
 
 <hr>
 
-<h3>Licença</h3>
+<h3 id="licenca">Licença</h3>
 <p>Este projeto está sob a licença do <a href="https://github.com/ErllanRego/DropZone-Technology/blob/main/LICENSE">MIT.</a>
 <p>Feito por alunos da <a href="https://www.uninove.br/">Universidade Nove de Julho.</a>
