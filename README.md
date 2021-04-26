@@ -65,6 +65,12 @@
     <p align="center";><a href="https://github.com/EudesSantana"><img width="100px"; src="https://avatars.githubusercontent.com/u/67012339?v=4"></a></p>
     <p align="center";><a href="https://www.linkedin.com/in/eudes-santana-4a26621b7/"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></p>
   </td>
+  
+  <td>
+    <p align="center";><strong><a href="https://github.com/m4rcos5">Marcos Reis</a></strong></p>
+    <p align="center";><a href="https://github.com/m4rcos5"><img width="100px"; src="https://avatars.githubusercontent.com/u/72893299?v=4"></a></p>
+    <p align="center";><a href="https://www.linkedin.com/in/marcos-reis-b74a7b1b7/"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></p>
+  </td>
  </tr>
 </table>
 
