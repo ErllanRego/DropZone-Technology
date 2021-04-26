@@ -1,98 +1,98 @@
 <!--Dropzone-Portfolio Project -->
-
 <!DOCTYPE html>
 
 <html lang="pt-br">
 <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="sortcut icon" href="img/Favicon.png" type="image/png">
 
-	<link rel="sortcut icon" href="img/Favicon.png" type="image/png">
-	<title>DZ ۰you dream, we come true!</title>
+      <!-- google fonts -->
 
-	<meta charset="utf-8">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500;1,900&display=swap" rel="stylesheet">
 
-	<!-- cached version of Bootstrap’s compiled CSS and JS -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-	
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+      <!-- Bootstrap CSS -->
 
+      <link rel="stylesheet" href="css/main.css">
 
-
-	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
-
-    <!--custom style-->
-    <link rel="stylesheet" href="css/style.css">
-
+      <title>DZ۰you dream, we come true!</title>
 </head>
+
 <body>
-	<!--search menu-->
-	<nav class="navbar  navbar-lg navbar-light bg-light">
-	 	
-		<div class="container">
+<!--------------------------------------header-------------------------------------------->
+  <div id="header">
+       <!--style menu-->
+    <div class="container">
+     <nav class="navbar navbar navbar-light justify-content-between auto">
+         <span class="navbar-brand mb-0 h1">
+           <img src="img/Favicon.png" width="30" height="30" class="d-inline-block align-text-top">
+           DropZone
+         </span>
 
-			 <span class="navbar-brand mb-0 h1">
-			   <img src="img/Favicon.png" width="30" height="30" class="d-inline-block align-text-top">
-			   DropZone
-			</span>
+        <!--Centralized Search-->
 
-			<!--*******************************   Centralized Search   *************************************-->
-		
-				<div class="d-flex justify-content-center" width="40"> 
-					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-					<button class="btn btn-warning" type="submit">Search</button>	
-				</div>
-			
-			<!--*******************************   Sandwich Menu   *******************************************-->
+        <div class="largura d-flex"> 
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-warning" type="submit">Search</button>
+        </div>
+          <!--DropDonw-->
+        <div class="nav drop">
+            <li class="nav-item dropdown">
+                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Redes Socias
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Facebook</a></li>
+                <li><a class="dropdown-item" href="#">Twitter</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Whastapp</a></li>
+              </ul>
+            </li>
+        </div>
+      </nav>
+    </div>
 
-			<div>
+    <!--page menu-->
 
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
+    <nav class="navbar navbar-expand navbar-dark bg-dark ">
+        
+        <div class="container">
+       
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-				<div class="collapse navbar-collapse" id="navbarNavDropdown">
-	      			<ul class="navbar-nav">
-						<li class="nav-item">
-						    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-						</li>
-						<li class="nav-item">
-						    <a class="nav-link" href="aboutus.html">about Us</a>
-						</li>
-						<li class="nav-item">
-						    <a class="nav-link" href="#">Project</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</nav>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link hv" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link hv" href="aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  hv active" href="project.html">Project´s</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
 
-	<!--page menu-->
-	<nav class="navbar navbar-expand navbar-dark bg-dark">
-	  	
-	  	<div class="container">
-	   
-	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-	      <span class="navbar-toggler-icon"></span>
-	    </button>
+  </div>
+<!--------------------------------------//header\\-------------------------------------------->
 
-	    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-	      <ul class="navbar-nav">
-	        <li class="nav-item">
-	          <a class="nav-link" aria-current="page" href="index.html">Home</a>
-	        </li>
-	        <li class="nav-item">
-	          <a class="nav-link" href="aboutus.html">About Us</a>
-	        </li>
-	        <li class="nav-item">
-	          <a class="nav-link active" href="#">Project</a>
-	        </li>
-	      </ul>
-	    </div>
-	</nav>
 
+
+
+
+  
 <div class="container">
 	<h1>Mais projetos embreve...<h1>
+
+		<!-- Bootstrap Bundle with Popper -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
 </div>
 </body>
 </html>

@@ -1,0 +1,46 @@
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+}
+
+a{
+    color: var(--primary);
+}
+
+a:hover{
+    color: var(--grey);
+}
+.tittle{
+    text-transform: uppercase;
+}
+.subtittle{
+    color:var(--grey);
+    font-weight: 400;
+}
+
+.button{
+    text-transform: lowercase;
+    font-weight: 500;
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+}
+.block{
+    margin-bottom: 20px;
+}
+
+.button-primay{
+    border-color: var(--primary);
+    color: var(--white);
+}
+.button-primay:hover{
+    border-color: var(--primary);
+    color: var(--white);
+}
+.button-primay-outline{
+    border-color: var(--primary);
+    color: var(--primary );
+}
+
+.button-primay-outline:hover{
+    background-color: var(--primary);
+    color: var(--white);
+}
