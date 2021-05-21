@@ -1,0 +1,103 @@
+						***Instruções de uso***
+				**Robo para automações do instagram**
+
+					*requsitios*
+-python (versão atual)
+-aplicativo geckodriver (versão atual)
+-Mozilla firefox 
+-Editor de textos (sublime text, visual studio code e etc...)
+
+					* Instalando PYTHON* 
+-Para instalar o Python no seu sistema operacional Windows, você precisa baixar o instalador. Acesse o site oficial python.org.br/instalador e clique em download.
+
+						*passo 1*
+
+Isso fará o download do Python 3 para sitemas de 32 bits. Para o instalador de 64 bits, acesse e selecione o instalador de 64 bits apropriado, como mostrado abaixo.
+
+						*passo 2*
+
+Faça o download do instalador executável do Windows (32 ou 64 bits) e clique duas vezes nele para iniciar o assistente de instalação do python, como mostrado abaixo.
+
+						*passo 3*
+
+O processo de instalação é bem simples.
+1. Marque a opção "Add Python to PATH"
+2. Clique em "Install Now"
+
+ Aguarde enquanto o instalador completa o processo de instalação.
+
+						*passo 4*
+
+Se tudo ocorrer bem, a próxima tela será mostrada. Clique em "Close".
+
+						*passo 5*
+
+Para verificar se a instalação do Python foi bem-sucedida, pesquise no menu iniciar por "cmd" e clique duas vezes para abri-lo.
+
+						*passo 6*
+
+Digite o seguinte comando:
+
+python --version
+
+Este comando retornará a versão do python que está instalada em sua máquina.
+
+						*passo 7*
+
+Agora digite:
+
+pip --version
+
+Esse comando retornará a versão do pip que está instalada em sua máquina. O pip é o gerenciador de pacote do Python. Com ele você poderá adicionar novas funcionalidades ao seu Python.
+
+						*passo 8*
+
+Idle
+O IDLE (Ambiente de Desenvolvimento e Aprendizagem Integrado) é um ambiente de desenvolvimento integrado (IDE) para Python. O instalador do Python para Windows contém o módulo IDLE por padrão.
+
+O IDLE pode ser usado para executar uma única instrução, como o Python Shell, e também para criar, modificar e executar scripts Python. O IDLE fornece um editor de texto completo para criar scripts Python que incluem recursos como destaque de sintaxe, preenchimento automático e recuo inteligente. Ele também possui um depurador com recursos de etapas e pontos de interrupção.
+
+Para iniciar o shell interativo IDLE, procure o ícone IDLE no menu Iniciar e clique duas vezes nele.
+
+						*passo 9*
+
+Isso abrirá o IDLE, onde você pode escrever o código Python e executá-lo como mostrado abaixo.
+
+						*passo 10*
+
+Parabéns, agora o Python, o pip e o Idle já estão instalados em seu sistema Windows.
+
+			
+					**Instalando geckodriver**
+
+Vamos começar a instalação do GeckoDriver. Para realizar seu download, devemos acessar o site https://github.com/mozilla/geckodriver/releases onde são exibidas todas as versões disponíveis para downloads. Devemos sempre instalar a última versão e ficarmos atentos para baixar aquela do sistema operacional correto.
+ 
+					*GeckoDriver*
+ 
+Após baixar o arquivo, devemos extrair no diretório C: (exemplo C:geckodriver.exe) e configurá-lo. Para iniciarmos a configuração, precisamos copiar o caminho do arquivo instalado. Para isso, abra o Windows Explorer, vá em Disco Local (C:).
+GeckoDriver2
+Caminho do arquivo geckodriver.exe
+ 
+Após copiar o caminho, entre no menu iniciar, clique com o botão direito em Computador e clique em Propriedades – aparecerá a tela de Sistema. Então, clique em Configurações Avançadas do Sistema:
+GeckoDriver3
+Acessar configurações avançadas do sistema
+ 
+Concluído os passos acima, aparecerá a tela de Propriedades do Sistema. Clique em Variáveis de Ambiente; na sessão de Variáveis de Sistema, clique em Path>editar>novo> e preencha com o caminho do arquivo, conforme print abaixo:
+GeckoDriver4
+Inclusão do geckodriver nas variáveis de ambiente
+ 
+Realizando todos os passos, deve-se colocar, no mesmo código que você chama para abrir a url, a linha abaixo para poder chamar o Driver gecko.driver.
+System.setProperty(“webdriver.gecko.driver”, “Local aonde está instalado geckodriver”);
+
+									***Apos a conclusão dos aplicativos***
+
+-Apos as instalações das aplicações, vamos agora instalar as bibliotecas para podermos executar as nossas ferramentas de automação.
+No "cmd" iremos digitar as seguintes aplicações.
+
+-pip install instapy
+-pip install selenium 
+-pip install os-sys
+-pip install time
+-pip install random 
+
+*FINISH. Apos todo esse processo o seu robo esta pronto para uso. Faça um bom proveito.
