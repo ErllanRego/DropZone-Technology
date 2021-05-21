@@ -1,0 +1,14 @@
+													*** Instruçõs de uso do telegram_bot**
+
+-Passos realizados dentro da sua conta no Telegram
+
+Primeiro passo é ter um Telegram Bot. Para criá-lo, abra seu app do Telegram, busque por: @BotFather e clique sobre ele;
+
+Envie o comando: /newbot;
+
+Insira um nome para o seu bot;
+Insira um username. O username obrigatoriamente tem que terminar com a palavra bot. Ex: Huggybot, Huggy_bot.
+
+Feito isso, você receberá um Token. Ele será usado para a integração com a Huggy;
+
+Por fim, alimente o bot de forma a inserir os comandos desejados.
