@@ -3,7 +3,7 @@
 
 <p align="center">"Show us the problem. And we will give you the solution."</p>
 
- <h3 align="center">:construction:Em desenvolvimento. Em breve Deploy disponível:construction:</h3>
+ <h3 align="center">:construction: <a href="https://projectdropzone.netlify.app/">Deploy disponível</a>    :construction:</h3>
  
 <p align="center">
    <a href="#objetivos">Objetivo</a> •
@@ -35,9 +35,8 @@
 
 <h3 id="requisitos">Requisitos</h3>
 <ul>
-  <li>Requisito 1</li>
-  <li>Requisito 2</li>
-  <li>Requisito 3</li>
+  <li>Não há requisitos específicos. Instruções mais específicas a respeito do uso dos bots estão zipados juntamente com seus devidos arquivos. Você poderá baixar-los simplesmente clicando em suas imagens ilustrativas</li>
+ 
 </ul>
 
 <hr>
@@ -70,6 +69,25 @@
     <p align="center";><strong><a href="https://github.com/m4rcos5">Marcos Reis</a></strong></p>
     <p align="center";><a href="https://github.com/m4rcos5"><img width="100px"; src="https://avatars.githubusercontent.com/u/72893299?v=4"></a></p>
     <p align="center";><a href="https://www.linkedin.com/in/marcos-reis-b74a7b1b7/"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+     <p align="center";><strong><a href="https://github.com/Bressani001">Raphael Bressani</a></strong></p>
+    <p align="center";><a href="https://github.com/Bressani001"><img width="100px"; src="https://avatars.githubusercontent.com/u/69826324?v=4"></a></p>
+    <p align="center";><a href="https://www.linkedin.com/in/raphael-bressani/?lipi=urn%3Ali%3Apage%3Ad_flagship3_people_connections%3BGxxsVTblRmKZVlCLzIOjtA%3D%3D"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></p>
+  </td>
+  
+   <td>
+     <p align="center";><strong><a href="https://github.com/Caiozxx">Caio Ferreira</a></strong></p>
+    <p align="center";><a href="https://github.com/Caiozxx"><img width="100px"; src="https://avatars.githubusercontent.com/u/78448877?v=4"></a></p>
+    <p align="center";><a href="https://www.linkedin.com/in/caio-ferreira-0679411b2/"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></p>
+  </td>
+  
+  <td>
+     <p align="center";><strong><a href="https://github.com/DenisSPinheiro">Denis Pinheiro</a></strong></p>
+    <p align="center";><a href="https://github.com/DenisSPinheiro"><img width="100px"; src="https://avatars.githubusercontent.com/u/80075164?v=4"></a></p>
+    <p align="center";><a href="https://www.linkedin.com/in/denis-santos-569209155/"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></p>
   </td>
  </tr>
 </table>
