@@ -52,13 +52,84 @@ width: auto;
 }
 
 
+#client{
+	margin-bottom: 50px;
+}
+#client a.logo-client {
+	padding: 0 15px;
+	background: #ffF;
+	display: flex;
+	align-items: center;
+	height: 150px;
+	transition: ease-out all 0.2s;
+}
+
+#client a.logo-client:hover {
+	transform: scale(1.2);
+	box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.15);
+}
+#client a.logo-client img{
+	filter: grayscale(75%);
+	max-height:70px;
+	width: 100%;
+	opacity: 0.6;
+}
+#client a.logo-client:hover img{
+	filter: none;
+	opacity: 1;
+}
+
+#client .client-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding:5px;
+	margin-left: 20px;
+	background: var(--black);
+	border-radius: 5px;
+}
+
+#client .client-text .imagem {
+	padding: 60px 0;
+	display: flex;
+	align-items: center;
+	margin-left: -30px;
+	color:white;
+	font-size: 24px;
+	line-height: 26px;
+}
+#client .client-text .imagem span{
+	color: var(--primary);
+	font-size:  110px;
+	line-height: 110px;
+	letter-spacing: -10px;
+	font-weight: 900;
+	display: block;
+	margin-left: 10px;
+}
+#client .client-text .telefone {
+ display: flex;
+ font-size: 14px;
+ color:white;
+ margin-left:140px;
+
+}
+#client .client-text .telefone span{
+font-size:  25px;
+color: var(--primary);
+font-weight: 900;
+display: block;
+margin-top: 20px; 
+margin-left: 10px;
+}
+
+
 .espaço{
 	height: 38rem;
 }
 
 .largura{
 	width: 60em;
-	
 }
 
 .tx{
@@ -71,11 +142,63 @@ width: auto;
 
 .img1{
     border-radius: 50%;
-    padding: 70px;    
+	max-width:500px;
+    max-height:400px;
 }
 .img2{
     border-radius:50%;
-    padding: 10px;
+	max-width:500px;
+    max-height:400px;
+
 }
 
+#rodape ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content:flex-end ;
+}
+#rodape ul li{
+	display: flex;
+	list-style: none;
+	margin-left: 25px;
+}
+#rodape ul li:first-child{
+ margin-left: 0;	
+}
+#rodape ul li a {
+	display: flex;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	justify-content: center;
+	align-items: center;
+	background-color:transparent;
+	transition: all ease-out 0.2s;
+}
+#rodape ul li a:hover{
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+	background-color: rgb(255, 255, 255);
+}
+
+
+.icorp{
+	max-width:30px;
+    max-height:50px;
+}
+
+.paisagem{
+	width: 100%;
+	max-height: 500px;
+}
+
+.center{
+	margin-left: 350px;
+}
+
+.imgcard{
+	min-height: 200px;
+	min-width: 150px;
+
+}
 
